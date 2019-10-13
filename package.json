@@ -19,5 +19,8 @@
   "homepage": "https://github.com/leejihyoung-1/ban-life-web#readme",
   "dependencies": {
     "sass": "^1.23.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
   }
 }
