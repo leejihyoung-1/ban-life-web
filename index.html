@@ -73,7 +73,17 @@
             <h2>결제 정보</h2>
             <ul>
                 <li>예약금액 <em class="room-price">135,000원</em></li>
-                <li>할인쿠폰 <em class="coupon no-coupon">쿠폰없음</em></li>
+                <li>할인쿠폰 <em class="no-coupon">쿠폰없음</em></li>
+                <li><label for="coupon">할인쿠폰</label>
+                    <div class="selectbox">
+                        <select id="coupon">
+                            <option value="2개보유" selected disabled>2개보유</option>
+                            <option value="사용안함">사용안함</option>
+                            <option value="2000원 할인">-2,000원</option>
+                            <option value="5000원 할인">-5,000원</option>
+                        </select>
+                    </div>
+                </li>
                 <li class="total">총 결제금액(VAT포함) <em class="total-price">135,000원</em></li>
             </ul>
         </section>
