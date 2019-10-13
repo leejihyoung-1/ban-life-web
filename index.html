@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no">
+    </head>
+    <body>
+        <section class="accommodation-basic-info">
+            <h1 class="name">올레 하우스</h1>
+            <div class="room-type">밸리뷰</div>
+            <div class="other-info">
+                <span class="how-many-days">1박</span>
+                <span class="how-many-members">성인 2명</span>
+            </div>
+            <div class="period">
+                <div class="check-in">
+                    <p class="date">09.20(금)</p>
+                    <p class="time">15:00</p>
+                </div>
+                <div class="slash"></div>
+                <div class="check-out">
+                    <p class="date">09.21(토)</p>
+                    <p class="time">11:00</p>
+                </div>
+            </div>
+        </section>
+        <hr/>
+        <section class="guest-info">
+            <h2>예약자 정보</h2>
+            <ul>
+                <li>
+                    <label for="guest-name">이름</label>
+                    <input id="guest-name" type="text" value="홍길동" required>
+                </li>
+                <li>
+                    <label for="guest-contact">연락처</label>
+                    <input id="guest-contact" type="tel" value="010-1234-5678" required>
+                </li>
+                <li>
+                    <label for="guest-email">연락처</label>
+                    <input id="guest-email" type="email" placeholder="abc123@ban-life.com">
+                </li>
+            </ul>
+        </section>
+        <hr/>
+        <section class="pet-info">
+            <h2>동반 반려동물 정보 <em>동반하시려는 강아지 수를 알려주세요</em></h2>
+            <ul>
+                <li>
+                    <label for="small">소형견(~10kg)</label>
+                    <div class="how-many-dogs">
+                        <input id="small" type="tel" value="0">
+                    </div>
+                </li>
+                <li>
+                    <label for="middle">중형견(10~25kg)</label>
+                    <div class="how-many-dogs">
+                        <input id="middle" type="tel" value="0">
+                    </div>
+                </li>
+                <li>
+                    <label for="big">대형견(25kg~)</label>
+                    <div class="how-many-dogs">
+                        <input id="big" type="tel" value="0">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <hr/>
+        <section class="payment-info">
+            <h2>결제 정보</h2>
+            <ul>
+                <li>예약금액 <em class="room-price">135,000원</em></li>
+                <li>할인쿠폰 <em class="coupon no-coupon">쿠폰없음</em></li>
+                <li class="total">총 결제금액(VAT포함) <em class="total-price">135,000원</em></li>
+            </ul>
+        </section>
+        <hr/>
+        <section class="payment-method">
+            <div class="radio">
+                <input id="creditcard" name="radio" type="radio" checked>
+                <label for="creditcard" class="radio-label">카드결제</label>
+            </div>
+            <div class="radio">
+                <input id="cash" name="radio" type="radio">
+                <label for="cash" class="radio-label">현금결제</label>
+            </div>
+        </section>
+        <hr/>
+        <section class="agreement">
+            <h2>이용 동의</h2>
+            <div class="checkbox">
+                <input id="term-1" name="checkbox" type="checkbox" checked>
+                <label for="term-1" class="checkbox-label">취소/이용규정에 동의합니다. (필수)</label>
+            </div>
+            <div class="checkbox">
+                <input id="term-2" name="checkbox" type="checkbox">
+                <label for="term-2" class="checkbox-label">정보 수집에 동의합니다. (필수)</label>
+            </div>
+            <div class="checkbox">
+                <input id="term-3" name="checkbox" type="checkbox">
+                <label for="term-3" class="checkbox-label">개인정보 제 3자 동의합니다. (필수)</label>
+            </div>
+        </section>
+        <section class="footer">
+            <p>반려생활은 통신판매중개자로서 통신판매의 당사자가 아니며,상품의 예약, 이용 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.</p>
+            <p>예약, 이용 및 환불 등 기타 문의는 02)123-4567 로 문의 바랍니다.<br>운영시간 : 평일 9시 - 18시 / 주말, 공휴일 휴무</p>
+            <button type="submit" class="btn-pay">결제하기</button>
+        </section>
+        <script src="./index.js"></script>
+    </body>
+</html>

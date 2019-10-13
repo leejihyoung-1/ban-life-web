@@ -1,0 +1,23 @@
+{
+  "name": "ban-life-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leejihyoung-1/ban-life-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leejihyoung-1/ban-life-web/issues"
+  },
+  "homepage": "https://github.com/leejihyoung-1/ban-life-web#readme",
+  "dependencies": {
+    "sass": "^1.23.0"
+  }
+}
