@@ -6,3 +6,4 @@
 2. 프로젝트 디렉토리로 가서
 3. npm install sass
 4. parcel index.html
+5. localhost:1234로 확인 (ip:1234)
